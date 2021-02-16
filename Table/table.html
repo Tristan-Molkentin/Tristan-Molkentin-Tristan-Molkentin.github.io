@@ -2,7 +2,13 @@
 <html>
 <head>
 <title>Create an HTML Table</title>
-
+<style>
+    table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+</style>
 </head>
 <body>
 <table>
@@ -49,5 +55,42 @@
     <td>carnivore</td>
   </tr>
 </table>
+<p>
+
+</p>
+<table>
+  <thead>
+    <tr>
+      <th>Group 1</th>
+      <th>Money</th>
+      <th>Hours</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Timmy</td>
+      <td>$5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Jimmy</td>
+      <td>$10</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+  <tbody>
+      <td>John</td>
+      <td>$8</td>
+      <td>1.5</td>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$23</td>
+      <td>4.5</td>
+    </tr>
+  </tfoot>
+</table>
+<p>Pay of Group 1 for their hours worked.</p>
 </body>
 </html>
