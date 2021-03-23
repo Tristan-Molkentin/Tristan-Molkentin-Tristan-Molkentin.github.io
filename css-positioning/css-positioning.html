@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Positioning</title>
+<style>
+html {cursor: cell;}
+img {cursor: alias;}
+#smile1 {position: fixed;
+bottom: 100px; left: 10px;}
+#icon1 {position: relative;
+left: 100px}
+#smile2 {position: absolute;
+right: 100px;}
+
+#smile {position: fixed;
+z-index: 0; top: 0px; left: 0px}
+#icon {position: fixed;
+z-index: 1; left: 13.5px; top: 13.5px;}
+#smileNo2 {position: fixed;
+z-index: 2; left: 25px; top: 25px;}
+</style>
+</head>
+<body>
+<img id="smile" src="smile.jpg">
+<img id="icon" src="icon.png">
+<img id="smileNo2" src="Smile_2.png">
+
+<img id="smile1" src="smile.jpg">
+<img id="icon1" src="icon.png">
+<img id="smile2" src="Smile_2.png">
+</body>
+</html>
