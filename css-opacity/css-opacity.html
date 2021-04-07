@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Opacity</title>
+<style>
+#img1 {width: 50%; height: 50%;
+opacity: 0.5;}
+#t1c1 {height: 100px; width: 100px; background-color: red; opacity: 0.9}
+#t1c2 {height: 100px; width: 100px; background-color: red; opacity: 0.8}
+#t1c3 {height: 100px; width: 100px; background-color: red; opacity: 0.7}
+#t1c4 {height: 100px; width: 100px; background-color: red; opacity: 0.6}
+#t1c5 {height: 100px; width: 100px; background-color: red; opacity: 0.5}
+#t1c6 {height: 100px; width: 100px; background-color: red; opacity: 0.4}
+#t1c7 {height: 100px; width: 100px; background-color: red; opacity: 0.3}
+#t1c8 {height: 100px; width: 100px; background-color: red; opacity: 0.2}
+#t1c9 {height: 100px; width: 100px; background-color: red; opacity: 0.1}
+
+#t2c1 {height: 100px; width: 100px; background: rgba(120,80,80,0.9)}
+#t2c2 {height: 100px; width: 100px; background: rgba(120,80,80,0.8)}
+#t2c3 {height: 100px; width: 100px; background: rgba(120,80,80,0.7)}
+#t2c4 {height: 100px; width: 100px; background: rgba(120,80,80,0.6)}
+#t2c5 {height: 100px; width: 100px; background: rgba(120,80,80,0.5)}
+#t2c6 {height: 100px; width: 100px; background: rgba(120,80,80,0.4)}
+#t2c7 {height: 100px; width: 100px; background: rgba(120,80,80,0.3)}
+#t2c8 {height: 100px; width: 100px; background: rgba(120,80,80,0.2)}
+#t2c9 {height: 100px; width: 100px; background: rgba(120,80,80,0.1)}
+#img2 {width: 50%; height: 50%;
+position: relative;}
+#img3 {width: 50%; height: 50%;
+position: relative; top: -100px;
+z-index: 1; opacity: 0.7}
+</style>
+</head>
+<body>
+<img id="img1" src="Capture+_2021-01-11-20-09-19.png">
+<table id="table1">
+<tr>
+    <td id="t1c1">90%</td>
+    <td id="t1c2">80%</td>
+    <td id="t1c3">70%</td>
+</tr>
+<tr>
+    <td id="t1c4">60%</td>
+    <td id="t1c5">50%</td>
+    <td id="t1c6">40%</td>
+</tr>
+<tr>
+    <td id="t1c7">30%</td>
+    <td id="t1c8">20%</td>
+    <td id="t1c9">10%</td>
+</tr>
+</table>
+<table>
+<tr>
+    <td id="t2c1">90%</td>
+    <td id="t2c2">80%</td>
+    <td id="t2c3">70%</td>
+</tr>
+<tr>
+    <td id="t2c4">60%</td>
+    <td id="t2c5">50%</td>
+    <td id="t2c6">40%</td>
+</tr>
+<tr>
+    <td id="t2c7">30%</td>
+    <td id="t2c8">20%</td>
+    <td id="t2c9">10%</td>
+</tr>
+</table>
+<img id="img2" src="Camera1.jpg">
+<img id="img3" src="Camera2.jpg">
+</body>
+</html>
