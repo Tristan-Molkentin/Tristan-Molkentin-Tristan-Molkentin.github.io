@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Multiple Backgrounds</title>
+<style>
+html {background: url(Will_Smith_Background.jpg) no-repeat center fixed;
+background-size: cover;}
+#thing1 {width: 700px; height: 700px;
+background-image: url(Crown.png), url(Will_Smith_Portrait.jpg), url(ground_texture.jpg);
+background-repeat: no-repeat, no-repeat, repeat;
+background-size: 52%, 70%, 50%;
+background-position: 290px 230px, bottom right, top left;
+}
+
+#thing2 {width: 700px; height: 700px;
+background: url(Crown.png) no-repeat 290px 230px, url(Will_Smith_Portrait.jpg) no-repeat bottom right, url(ground_texture.jpg) repeat top left;
+background-size: 52%, 70%, 50%;
+}
+
+.hero-image {
+  background: url(Will_Smith_Background.2.jpg) no-repeat center; 
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+</style>
+</head>
+<body>
+<div id="thing1"></div>
+<div id="thing2"></div>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Tristan Molkentin</h1>
+    <h3>Will Smith is Awesome</h3>
+  </div>
+</div>
+</body>
+</html>
