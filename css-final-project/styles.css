@@ -1,0 +1,199 @@
+/* Entire Page Stuff */
+html body {margin: 0; padding: 0;
+font-family: "Georgia", serif;
+}
+
+html {background-image: linear-gradient(#D50A0A, #FF7900 82%, yellow 100%);
+min-height: 100%;}
+
+/* links */
+a:link {color: rgb(213,10,10);}
+a:visited {color: rgb(52,48,43);}
+a:hover {color: rgba(177,186,191,0.75);}
+a:active {color: black;}
+
+
+.header {
+  background-color: #34302B;
+  color: #FF7900;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  margin: 0px;
+  border: 0px;
+
+}
+/* Navigation Bar */
+.Navbar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #34302B;
+}
+
+.NavHome {
+  float: left;
+}
+
+.NavHome:last-child {
+  border-right: none;
+}
+
+.NavHome a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.NavHome a:hover:not(.active) {
+  background-color: rgb(0, 0, 0);
+}
+
+.active {
+  background-color: #FF7900;
+}
+
+.footimage {
+width: 100%;
+height: 40%;
+margin: 0px;
+position: relative;
+bottom: -5px;
+}
+
+.footer {
+  background-color: #0A0A08;
+  color: #B1BABF;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+}
+
+/* single column layout */
+.main {background-color: rgba(177,186,191,0.75);
+padding: 15px;
+margin-left: 8%;
+margin-right: 8%;
+margin-bottom: 25px;
+text-indent: 25px;
+text-align: justify;
+}
+
+#Tampa1 {width: 20%; height: 20%;
+  float: right;
+clear: left;
+margin: 10px;
+}
+#Tampa3 {width: 90%; height: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+/* two column layout */
+.col-container {
+  display: table;
+  width: 80%;
+  position: relative;
+  right: -10%;
+}
+
+/* right column */
+.column.side {
+  width: 20%;
+  background-color: rgba(255,121,0,0.75);
+  padding: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 25px;
+  display: table-cell;
+  text-align: center;
+}
+
+/* Middle column */
+.column.middle {
+  width: 60%;
+  background-color: rgba(177,186,191,0.75);
+  padding: 15px;
+  margin-left: 8%;
+  margin-right: 0;
+  margin-bottom: 25px;
+  text-indent: 25px;
+  display: table-cell;
+}
+
+#Beach1 {width: 35%; height: 35%; margin: 40px;}
+#Resort1 {width: 41.5%; height: 41.5%; margin: 40px; margin-left: 0px}
+
+#Cheeseburger1 {width: 35%; height: 35%; margin: 40px;}
+#Fish2 {width: 35%; height: 35%; margin: 40px; margin-left: 0px}
+
+/* photo gallery */
+div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 46%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+#Phototoes {width: 600; height: 400;
+position: relative;
+right: 25px;
+}
+
+/* two column layout HISTORY EDITION */
+.col-containerhist {
+  display: table;
+  width: 80%;
+  position: relative;
+  right: -10%;
+}
+
+/* right column */
+.column.sidehist {
+  width: 35%;
+  background-color: rgba(213,10,10,0.75);
+  padding: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 25px;
+  display: table-cell;
+  text-align: center;
+}
+
+/* Middle column */
+.column.middlehist {
+  width: 45%;
+  background-color: rgba(177,186,191,0.75);
+  padding: 15px;
+  margin-left: 8%;
+  margin-right: 0;
+  margin-bottom: 25px;
+  text-indent: 25px;
+  display: table-cell;
+}
+#Hist1 {width: 100%;}
+
+#MacDill1 {width: 100%;}
+
+#map {height: 450; width: 500;
+border: 0;}
+
